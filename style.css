@@ -15,3 +15,6 @@ body{
 }
 .container{
     position: relative;
+     width: 450px;
+    text-align: center;
+}
