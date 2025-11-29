@@ -41,6 +41,8 @@ body{
 .container .button{
     display: inline-block;
     position: relative;
+    cursor: pointer;
+    background-color: #ffb3c0;
 
 
 
