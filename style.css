@@ -58,6 +58,9 @@ body{
 #copyButton{
     margin-bottom: 1.1rem;
 }
+.show{
+    position: fixed;
+    top: 0;
 
 
 
