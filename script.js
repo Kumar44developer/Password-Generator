@@ -25,6 +25,8 @@ if(passwordValue.trim() === ""){
     }
   else{
         navigator.clipboard.writeText(passwordValue).then(function(){
+         show.innerHTML = "Your new Password is:<br> " + passwordValue;
+            show.classList.add("active");
 
 
 
