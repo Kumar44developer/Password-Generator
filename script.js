@@ -19,3 +19,17 @@ generateButton.onclick = function generatePassword(){
 
 copyButton.onclick = function copyPwd(){
 const passwordValue = passwordInput.value;
+
+if(passwordValue.trim() === ""){
+        alert("Password is empty. Generate a password first.");
+    }
+  
+
+
+
+
+
+
+
+
+  
