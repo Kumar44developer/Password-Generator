@@ -14,3 +14,7 @@ generateButton.onclick = function generatePassword(){
         password += character.substring(generatePwd, generatePwd + 1);
     }
   
+  passwordInput.value = password;
+
+
+};
