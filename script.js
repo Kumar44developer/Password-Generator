@@ -30,6 +30,11 @@ if(passwordValue.trim() === ""){
            setTimeout(() => {
                 show.classList.remove("active");
             }, 2000);
+                 passwordInput.value = "";
+        });
+    }
+
+}
 
 
 
