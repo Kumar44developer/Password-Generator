@@ -15,6 +15,7 @@ generateButton.onclick = function generatePassword(){
     }
   
   passwordInput.value = password;
-
-
 };
+
+copyButton.onclick = function copyPwd(){
+const passwordValue = passwordInput.value;
