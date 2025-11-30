@@ -8,3 +8,9 @@ generateButton.onclick = function generatePassword(){
   const character = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*_";
   const pwdLength = 16;
   let password = "";
+
+  for(let i = 0; i < pwdLength; i++){
+        let generatePwd = Math.floor(Math.random() * character.length)
+        password += character.substring(generatePwd, generatePwd + 1);
+    }
+  
