@@ -23,7 +23,8 @@ const passwordValue = passwordInput.value;
 if(passwordValue.trim() === ""){
         alert("Password is empty. Generate a password first.");
     }
-  
+  else{
+        navigator.clipboard.writeText(passwordValue).then(function(){
 
 
 
