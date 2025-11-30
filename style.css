@@ -71,7 +71,8 @@ body{
     display: none;
 }
 
-
+.show.active{
+    display: flex;
 
 
 
